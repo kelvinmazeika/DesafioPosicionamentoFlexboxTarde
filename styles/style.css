@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 200px;
+}
+
+#fantasma {
+    width: 100px;
+}
+
+
 .div1, .div2, .div3, .div4, .div5, .div7, .div8 {
     margin: 50px 0px;
     background-color: aqua;
