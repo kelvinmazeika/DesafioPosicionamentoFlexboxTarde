@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div7, .div8 {
+    margin: 50px 0px;
+    background-color: aqua;
+
+}
+
+.div1, .div2, .div3, .div4, .div5, .end, .endWidth, .div6, .fundoAmarelo, .div7{
+    align-items: center;
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.div4 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+
+.div5 {
+    display: flex;
+    background-color: aqua;
+}
+
+.end {
+    display: flex;
+    margin-left: auto;
+    background-color: yellow;
+}
+
+.endWidth {
+    display: flex;
+    margin-left: auto;
+    width: 960px;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.div6 {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.fundoAmarelo {
+    display: flex;
+    background-color: yellow;
+}
+
+.div7 {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 960px;
+}
+
+.div8 {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    flex-direction: column;
+    height: 960px;
+}
+
+.fundoRosa {
+    background-color: violet;
+    margin: 0px;
+}
